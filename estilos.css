@@ -1,0 +1,105 @@
+header {
+	font-family: 'Arial';
+	font-size: 0.8em;
+	background-color: black;
+	color: white;
+	border-bottom: solid 2px #08A364;
+	position: relative;
+	height: 150px;
+}
+header .logo img{
+	width: 150px;
+}
+.logo{
+	position: absolute;
+	left: 10px;
+	top: 5px;
+}
+.menu{
+	position: absolute;
+	right: 10px;
+	top: 25px;
+}
+.menu ul li{
+	display: inline-block;
+	text-align: center;
+	padding: 5px 10px 10px 10px;
+}
+.menu ul li:hover{
+	background-color: #08A364;
+}
+fieldset{
+	border: solid 1px #08A364;
+	position: relative;
+	width: 50%;
+	margin: 0 auto;
+}
+.control{
+	padding: 10px;
+	font-family: 'Dosis', sans-serif;
+}
+label{
+	display: block;
+}
+spam{
+	color: red;
+}
+input[type=text]:focus{
+	outline: 0 none;
+	border: solid 1px #08A364;
+}
+input[type=submit]{
+	background-color: #00de8b;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.2em;
+	color: white;
+	padding: 5px 15px 5px 15px;
+	border-radius: 5px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	box-shadow: 1px 1px 2px;
+}
+input[type=submit]:hover{
+	background-color: #08A364;
+}
+.saludo{
+	position: relative;
+	width: 50%;
+	margin: 0 auto;
+}
+.red-dot:before{
+  content: ".";
+  color: #00de8b;
+}
+article{
+	width: 90%;
+	background-color: #F0F0F0;
+	margin: 0 auto;
+}
+video{
+	width: 80%;
+}
+#videos{
+	display: flex;
+	text-align: center;
+
+}
+.video01{
+	width: 50%;
+}
+.video02{
+	width: 50%;
+}
+@media screen and (max-width: 900px){
+	#videos{
+		display: inline-block;
+	}
+	.video01{
+		width: 100%;
+
+	}
+	.video02{
+		width: 100%;
+	}
+}
